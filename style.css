@@ -1,0 +1,31 @@
+@import url(./reset.css);
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    font-weight: 1000;
+}
+
+.clickable:hover {
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.hideIn {
+    display: none;
+}
