@@ -22,10 +22,26 @@ h1 {
 }
 
 .clickable:hover {
-    background-color: aqua;
+    
     border-radius: 15px;
 }
 
 .hideIn {
     display: none;
+}
+
+#fuckTanya {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.cuka {
+    display: none;
+}
+
+#fuckTanya:hover {
+    height: 300px;
+    background-color: antiquewhite;
+    border-radius: 20px;
 }

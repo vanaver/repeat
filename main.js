@@ -12,5 +12,14 @@ const showText = (element) => {
         return element.style.display = 'block';
     }
 }
+// Ya IVAn
 
-showText(hidden[0])
+
+
+const hidden2 = Array.from(document.getElementsByClassName('cuka'))
+const lol = document.getElementById('fuckTanya')
+
+for (let i = 0; i <= hidden2.length -1; i++) {
+    lol.addEventListener('mouseover', () => showText(hidden2[i]))
+    lol.addEventListener('mouseout', () => showText(hidden2[i]))
+}
